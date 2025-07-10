@@ -75,7 +75,7 @@ The text mentions a "FluidForceSensor bypass", which seems to be some sort of ex
 
 There is a mention of a person named "Adiont" which seems to be a sort of  figure in the exploiting community. While I didn't find much, it seems he may have a hand in creating server-sided script exploit hubs for games, like SensationHub, Adionts Guns 3.0 and AnimeHubV3
 
-
+It seems this script may have some sort of webhook that sends out a notification to alert that a server is backdoored, which loads a ServerSided script executor (like senstation hub), for players to use, most likely the group we mentioned earlier.
 
 
 
