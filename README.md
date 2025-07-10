@@ -71,6 +71,12 @@ Anyways,the MainModule script notably calls another require, which inserts a mod
 
 The text I found is simply Arabic Ligature Bismillah, a unicode character that ROBLOX Studio can't handle, causing lag, crashing or high memory usage. i.e a Unicode denial-of-service attack. 
 
+The text mentions a "FluidForceSensor bypass", which seems to be some sort of exploit method to execute code inside Studio or live games. FluidForceSensor is a class used for physics simulations in-game, but it creates a FluidForceSensor instance, which can be injected with malicious code. (Environment Hijacking)
+
+There is a mention of a person named "Adiont" which seems to be a sort of  figure in the exploiting community. While I didn't find much, it seems he may have a hand in creating server-sided script exploit hubs for games, like SensationHub, Adionts Guns 3.0 and AnimeHubV3
+
+
+
 
 
 
