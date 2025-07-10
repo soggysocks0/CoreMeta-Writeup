@@ -63,9 +63,13 @@ Most notably, the script itself contains a jumbled and obfuscated mess of code, 
 Digging around on google brings up a WeAreDevs website (notorious hacking tool website for ROBLOX) where the following is revealed:
 ![Screenshot_20250709_223742](https://github.com/user-attachments/assets/00638e9c-8c7e-403a-a8c4-00590ea5c7fd)
 
+Anyways,the MainModule script notably calls another require, which inserts a module script, a redirection layer to hide the actual payload from being viewed, but parented to it is disabled script with unreadable garbage that makes your script editor lag, or crash. Luckily, I was able to read some of it by just putting it in VSCODE.
 
+![Screenshot_20250710_002416](https://github.com/user-attachments/assets/4cfb7810-08ce-4864-954d-75c43f53b2a0)
 
+![Screenshot_20250710_002432](https://github.com/user-attachments/assets/8fdeeb82-1170-4c83-b7e8-ec81e106ee27)
 
+The text I found is simply Arabic Ligature Bismillah, a unicode character that ROBLOX Studio can't handle, causing lag, crashing or high memory usage. i.e a Unicode denial-of-service attack. 
 
 
 
