@@ -77,7 +77,7 @@ There is a mention of a person named "Adiont" which seems to be a sort of  figur
 
 It seems this script may have some sort of webhook that sends out a notification to alert that a server is backdoored, which loads a ServerSided script executor (like senstation hub), for players to use, most likely the group we mentioned earlier.
 
-
+Attempting to debug in studio using Live Game Explorer plugin causes the script to not execute.
 
 
 
